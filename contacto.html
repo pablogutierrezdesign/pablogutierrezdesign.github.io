@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Contacto - Pablo Gutiérrez Alba</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./W3.CSS Template_files/w3.css">
+<link rel="stylesheet" href="./W3.CSS Template_files/css">
+<style>
+body,h1 {font-family: "Poppins", sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.center {
+  margin: auto;
+</style>
+</head><body>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-right:300px">
+
+  <!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="text-shadow:1px 1px 0 #B8B7B7; padding:128px 16px">
+  <h1 class="w3-xlarge">Diseñador Gráfico</h1>
+  <h1>Pablo Gutiérrez Alba</h1>
+  
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="index.html" class="w3-bar-item w3-button">Portfolio</a>
+	  <a href="curriculum.html" class="w3-bar-item w3-button">Currículum</a>
+	  <a href="sobremi.html" class="w3-bar-item w3-button">Sobre mí</a>
+      <a href="contacto.html" class="w3-bar-item w3-button w3-light-grey">Contacto</a>
+    </div>
+  </div>
+</header>
+  
+<body>
+  <div class="w3-card center" style="width:40%">
+    <img src="./W3.CSS Template_files/contacto.jpg" alt="Contacto" style="width:100%">
+    <div class="w3-container">
+	  <h6><b>eMail:</b> <a href="mailto:pabloguti51.3@gmail.com" target="_blank">pabloguti51.3@gmail.com</a></h6>
+	  <h6><b>Telegram:</b> <a href="https://t.me/pablogtza" target="_blank">@pablogtza</a></h6>
+	  <h6><b>Instagram:</b> <a href="https://www.instagram.com/pablo.gtza/" target="_blank">@pablo.gtza</a></h6>
+    </div>
+   </div>
+</body>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+
+</body></html>
